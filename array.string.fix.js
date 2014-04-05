@@ -14,11 +14,9 @@
       var ary = [];
       for (var key in array) {
         ary.push(
-          array[key] instanceof Array ? arrayString(array[key]) : array[key]);
+          array[key] instanceof Array ? arrayString.call(array[key]) : array[key]);
       }
       return '[' + ary.join(',') + ']';
     }
   };
-
 })();
-
