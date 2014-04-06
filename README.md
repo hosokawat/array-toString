@@ -1,7 +1,7 @@
 array-toStringFix
 ==============
 
-JavascriptのArray.toStringを改善します
+JavascriptのArray.toStringを読みやすくします。
 
 ##[1,2,3].toString()
 
