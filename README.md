@@ -1,7 +1,5 @@
-array-toStringFix
+array-toString
 ==============
-
-JavascriptのArray.toStringを読みやすくします。
 
 ##[1,2,3].toString()
 
