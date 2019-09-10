@@ -1,34 +1,32 @@
-array-toString
+# array-toString
 ==============
 
-##[1,2,3].toString()
+## [1,2,3].toString()
 
-before
+**before**
 
 `'1,2,3'`
 
-after
+**after**
 
 `[1,2,3]`
 
-##[1,2,[3]].toString()
+## [1,2,[3]].toString()
 
-before
+**before**
 
 `'1,2,3'`
 
-after
+**after**
 
 `'[1,2,[3]]'`
 
-##[[1,2],[[3]],[[]]].toString()`
+## [[1,2],[[3]],[[]]].toString()
 
-before
+**before**
 
 `'1,2,3,'`
 
-after
+**after**
 
 `'[[1,2],[[3]],[[]]]'`
-
-
